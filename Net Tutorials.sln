@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct,ThreadStart,ParameterizedThreadStart", "Direct,ThreadStart,ParameterizedThreadStart\Direct,ThreadStart,ParameterizedThreadStart.csproj", "{53A240BA-6A65-43F7-B74E-B63681129C9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackThread", "CallbackThread\CallbackThread.csproj", "{1B0EB612-FA32-4EA9-9876-C3777799BA1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{53A240BA-6A65-43F7-B74E-B63681129C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A240BA-6A65-43F7-B74E-B63681129C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A240BA-6A65-43F7-B74E-B63681129C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0EB612-FA32-4EA9-9876-C3777799BA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0EB612-FA32-4EA9-9876-C3777799BA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0EB612-FA32-4EA9-9876-C3777799BA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0EB612-FA32-4EA9-9876-C3777799BA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
