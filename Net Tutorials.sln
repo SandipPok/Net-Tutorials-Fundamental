@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorDemo", "MonitorDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wait_Pulse_Demo", "Wait_Pulse_Demo\Wait_Pulse_Demo.csproj", "{66657530-1D87-46FC-B331-81B22ED60B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexDemo", "MutexDemo\MutexDemo.csproj", "{5D64EF51-E930-4C59-A2B1-1E5010585E4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{66657530-1D87-46FC-B331-81B22ED60B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66657530-1D87-46FC-B331-81B22ED60B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66657530-1D87-46FC-B331-81B22ED60B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D64EF51-E930-4C59-A2B1-1E5010585E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D64EF51-E930-4C59-A2B1-1E5010585E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D64EF51-E930-4C59-A2B1-1E5010585E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D64EF51-E930-4C59-A2B1-1E5010585E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{7F936787-6065-4C1A-B463-990B37772AF9} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43} = {41CDEC43-DF81-4E9A-ADDF-B4CBFE66A06F}
 		{66657530-1D87-46FC-B331-81B22ED60B2A} = {41CDEC43-DF81-4E9A-ADDF-B4CBFE66A06F}
+		{5D64EF51-E930-4C59-A2B1-1E5010585E4A} = {41CDEC43-DF81-4E9A-ADDF-B4CBFE66A06F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
