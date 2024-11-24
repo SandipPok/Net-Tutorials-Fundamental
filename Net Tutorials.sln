@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events, Delegates, Lambda E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception Handling", "Exception Handling", "{C8D04F11-19A8-42B1-BEFD-47C659A69164}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorDemo", "MonitorDemo\MonitorDemo.csproj", "{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7F936787-6065-4C1A-B463-990B37772AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F936787-6065-4C1A-B463-990B37772AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F936787-6065-4C1A-B463-990B37772AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{1B0EB612-FA32-4EA9-9876-C3777799BA1A} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{35B43F26-8362-4964-8586-810A55950A04} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{7F936787-6065-4C1A-B463-990B37772AF9} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
+		{6F22C9B9-2DA9-4DD9-9CF3-49801ACFCB43} = {41CDEC43-DF81-4E9A-ADDF-B4CBFE66A06F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
