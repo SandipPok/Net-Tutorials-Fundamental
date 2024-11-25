@@ -16,7 +16,8 @@
        6. [Method: `Release(int releaseCount)`](#releaseint-releasecount)
        7. [Method: `GetAccessControl()`](#getaccesscontrol)
        8. [Method: `SetAccessControl(SemaphoreSecurity semaphoreSecurity)`](#setaccesscontrolsemaphoresecurity-semaphoresecurity)
-
+       9. [Method: `WaitOne()`](#waitone)
+       
 ---
 
 ## MultiThreading
@@ -416,3 +417,15 @@ public static void Main()
 ```
 
 ---
+
+### `WaitOne()`
+
+Threads can enter into the critical section by using the WaitOne method.
+
+#### Example Usage:
+
+```csharp
+private static Semaphore semaphore = new Semaphore(2, 2); // Initialize with max 2 threads
+
+semaphore.WaitOne();
+```
