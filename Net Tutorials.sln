@@ -39,11 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wait_Pulse_Demo", "Wait_Pul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutexDemo", "MutexDemo\MutexDemo.csproj", "{5D64EF51-E930-4C59-A2B1-1E5010585E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreDemo", "SemaphoreDemo\SemaphoreDemo.csproj", "{2B7E61CF-12A5-488E-B730-FC376ACB9C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreDemo", "SemaphoreDemo\SemaphoreDemo.csproj", "{2B7E61CF-12A5-488E-B730-FC376ACB9C86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{01EE8D47-72A8-41F7-86B8-796EE9CD6117}"
 	ProjectSection(SolutionItems) = preProject
-		notes.md = notes.md
+		SemaphoreNotes.md = SemaphoreNotes.md
 	EndProjectSection
 EndProject
 Global
