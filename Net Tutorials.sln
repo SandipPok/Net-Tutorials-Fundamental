@@ -49,7 +49,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{01EE8D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlimDemo", "SemaphoreSlimDemo\SemaphoreSlimDemo.csproj", "{52DEAEAC-351C-47B1-8D31-FDF703F5A74B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLockDemo", "DeadLockDemo\DeadLockDemo.csproj", "{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadLockDemo", "DeadLockDemo\DeadLockDemo.csproj", "{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTestingMultithreading", "PerformanceTestingMultithreading\PerformanceTestingMultithreading.csproj", "{F99D2674-6EB3-4317-8158-B698BB4199A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99D2674-6EB3-4317-8158-B698BB4199A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99D2674-6EB3-4317-8158-B698BB4199A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99D2674-6EB3-4317-8158-B698BB4199A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99D2674-6EB3-4317-8158-B698BB4199A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{2B7E61CF-12A5-488E-B730-FC376ACB9C86} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{52DEAEAC-351C-47B1-8D31-FDF703F5A74B} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
+		{F99D2674-6EB3-4317-8158-B698BB4199A5} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
