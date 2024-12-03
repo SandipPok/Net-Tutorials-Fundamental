@@ -12,3 +12,8 @@
 |**`Set()`**|Return boolean value|Set state of event to signaled|`null`|
 |**`Reset()`**|Return boolean value|Set state of event to non signaled, causing thread block|`null`|
 |**`WaitOne()`**|Returns `true` if signal receives otherwise doesn't returns|Blocks the current thread until the current WaitHandle receives a signal|`null`|
+
+#### Difference between `AutoResetEvent` and `ManualResetEvent`
+
+- For each WaitOne method there should be corresponding `Set()` method in **`AutoResetEvent`**
+- While **`ManualResetEvent`** release in only on `Set()` method.
