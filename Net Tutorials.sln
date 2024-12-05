@@ -64,7 +64,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Threading", "Multi Th
 		SemaphoreSlim.md = SemaphoreSlim.md
 		ThreadLifeCycle.md = ThreadLifeCycle.md
 		ThreadPool.md = ThreadPool.md
+		ThreadTerminate.md = ThreadTerminate.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTerminateDemo", "ThreadTerminateDemo\ThreadTerminateDemo.csproj", "{32447183-4E6F-42A5-90A8-CA92075A4668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -164,6 +167,10 @@ Global
 		{81B96E7E-E084-4794-AEBE-452029380235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B96E7E-E084-4794-AEBE-452029380235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B96E7E-E084-4794-AEBE-452029380235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32447183-4E6F-42A5-90A8-CA92075A4668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32447183-4E6F-42A5-90A8-CA92075A4668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32447183-4E6F-42A5-90A8-CA92075A4668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32447183-4E6F-42A5-90A8-CA92075A4668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +198,7 @@ Global
 		{50888AF9-3EFD-496A-A899-8D2235E8CDC3} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{81B96E7E-E084-4794-AEBE-452029380235} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E} = {01EE8D47-72A8-41F7-86B8-796EE9CD6117}
+		{32447183-4E6F-42A5-90A8-CA92075A4668} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
