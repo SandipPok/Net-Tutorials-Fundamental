@@ -42,13 +42,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreDemo", "SemaphoreDemo\SemaphoreDemo.csproj", "{2B7E61CF-12A5-488E-B730-FC376ACB9C86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{01EE8D47-72A8-41F7-86B8-796EE9CD6117}"
-	ProjectSection(SolutionItems) = preProject
-		ResetEvent_Thread.md = ResetEvent_Thread.md
-		SemaphoreNotes.md = SemaphoreNotes.md
-		SemaphoreSlim.md = SemaphoreSlim.md
-		ThreadLifeCycle.md = ThreadLifeCycle.md
-		ThreadPool.md = ThreadPool.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlimDemo", "SemaphoreSlimDemo\SemaphoreSlimDemo.csproj", "{52DEAEAC-351C-47B1-8D31-FDF703F5A74B}"
 EndProject
@@ -62,7 +55,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forground-Background-Thread
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResetEvent_Thread", "ResetEvent_Thread\ResetEvent_Thread.csproj", "{50888AF9-3EFD-496A-A899-8D2235E8CDC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStateDemo", "ThreadStateDemo\ThreadStateDemo.csproj", "{81B96E7E-E084-4794-AEBE-452029380235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStateDemo", "ThreadStateDemo\ThreadStateDemo.csproj", "{81B96E7E-E084-4794-AEBE-452029380235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Threading", "Multi Threading", "{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E}"
+	ProjectSection(SolutionItems) = preProject
+		ResetEvent_Thread.md = ResetEvent_Thread.md
+		SemaphoreNotes.md = SemaphoreNotes.md
+		SemaphoreSlim.md = SemaphoreSlim.md
+		ThreadLifeCycle.md = ThreadLifeCycle.md
+		ThreadPool.md = ThreadPool.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +190,7 @@ Global
 		{7E0E0495-CBE2-4A6C-A0AA-70F3367BA516} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{50888AF9-3EFD-496A-A899-8D2235E8CDC3} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{81B96E7E-E084-4794-AEBE-452029380235} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
+		{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E} = {01EE8D47-72A8-41F7-86B8-796EE9CD6117}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
