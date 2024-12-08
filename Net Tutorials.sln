@@ -59,6 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStateDemo", "ThreadSt
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Threading", "Multi Threading", "{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E}"
 	ProjectSection(SolutionItems) = preProject
+		InterThreadCommunication.md = InterThreadCommunication.md
 		ResetEvent_Thread.md = ResetEvent_Thread.md
 		SemaphoreNotes.md = SemaphoreNotes.md
 		SemaphoreSlim.md = SemaphoreSlim.md
@@ -67,7 +68,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Threading", "Multi Th
 		ThreadTerminate.md = ThreadTerminate.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTerminateDemo", "ThreadTerminateDemo\ThreadTerminateDemo.csproj", "{32447183-4E6F-42A5-90A8-CA92075A4668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTerminateDemo", "ThreadTerminateDemo\ThreadTerminateDemo.csproj", "{32447183-4E6F-42A5-90A8-CA92075A4668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
