@@ -83,13 +83,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{F871722D-6002-4E02-BF7A-1313FD5FE0EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-Create_Initialize_SameStatement", "Eg1-Creating&InitializingArray\Ex1-Create_Initialize_SameStatement.csproj", "{0C0A163D-157F-4FD4-98F0-F3FE98188073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1-Create_Initialize_SameStatement", "Eg1-Creating&InitializingArray\Ex1-Create_Initialize_SameStatement.csproj", "{0C0A163D-157F-4FD4-98F0-F3FE98188073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-Create_Initialize_Separately", "Ex2-Create_Initialize_Separately\Ex2-Create_Initialize_Separately.csproj", "{2ED3FBD2-B584-4661-97C1-BE5113B0A3FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex2-Create_Initialize_Separately", "Ex2-Create_Initialize_Separately\Ex2-Create_Initialize_Separately.csproj", "{2ED3FBD2-B584-4661-97C1-BE5113B0A3FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-Dynamically_Initialize", "Ex3-Dynamically_Initialize\Ex3-Dynamically_Initialize.csproj", "{CBEF2C9E-F4B5-4139-B83B-25E06B151512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex3-Dynamically_Initialize", "Ex3-Dynamically_Initialize\Ex3-Dynamically_Initialize.csproj", "{CBEF2C9E-F4B5-4139-B83B-25E06B151512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4-ArrayClassMethodDemo", "ArrayClassMethodDemo\Ex4-ArrayClassMethodDemo.csproj", "{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4-ArrayClassMethodDemo", "ArrayClassMethodDemo\Ex4-ArrayClassMethodDemo.csproj", "{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2D Arrays", "2D Arrays", "{C5DA1250-910E-4DC4-B890-478E70EF1A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-2D Array", "Ex1-2D Array\Ex1-2D Array.csproj", "{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-2D_Array_Declare_Initialization", "Ex2-2D_Array_Declare_Initialization\Ex2-2D_Array_Declare_Initialization.csproj", "{97E552C5-A254-4182-B3E5-2FBD5FBA47AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-Add_2_Matrix", "Ex3-Add_2_Matrix\Ex3-Add_2_Matrix.csproj", "{41856EBF-D1BF-4412-A0A4-F1999F735FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4-Jagged_Array", "Ex4-Jagged_Array\Ex4-Jagged_Array.csproj", "{19C4D60C-6E5D-4B6B-91E0-40377CA73867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +223,22 @@ Global
 		{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E552C5-A254-4182-B3E5-2FBD5FBA47AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E552C5-A254-4182-B3E5-2FBD5FBA47AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E552C5-A254-4182-B3E5-2FBD5FBA47AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E552C5-A254-4182-B3E5-2FBD5FBA47AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41856EBF-D1BF-4412-A0A4-F1999F735FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41856EBF-D1BF-4412-A0A4-F1999F735FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41856EBF-D1BF-4412-A0A4-F1999F735FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41856EBF-D1BF-4412-A0A4-F1999F735FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C4D60C-6E5D-4B6B-91E0-40377CA73867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C4D60C-6E5D-4B6B-91E0-40377CA73867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C4D60C-6E5D-4B6B-91E0-40377CA73867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C4D60C-6E5D-4B6B-91E0-40377CA73867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +275,11 @@ Global
 		{2ED3FBD2-B584-4661-97C1-BE5113B0A3FD} = {F871722D-6002-4E02-BF7A-1313FD5FE0EC}
 		{CBEF2C9E-F4B5-4139-B83B-25E06B151512} = {F871722D-6002-4E02-BF7A-1313FD5FE0EC}
 		{C5BDA6AB-7ADC-4556-A65E-09A2A044C7DC} = {F871722D-6002-4E02-BF7A-1313FD5FE0EC}
+		{C5DA1250-910E-4DC4-B890-478E70EF1A0B} = {F702E000-80A7-498A-AFCC-E4ED19AAAB9E}
+		{5004D6A0-8E1B-4D58-B803-63C2BBAD6FBA} = {C5DA1250-910E-4DC4-B890-478E70EF1A0B}
+		{97E552C5-A254-4182-B3E5-2FBD5FBA47AD} = {C5DA1250-910E-4DC4-B890-478E70EF1A0B}
+		{41856EBF-D1BF-4412-A0A4-F1999F735FE5} = {C5DA1250-910E-4DC4-B890-478E70EF1A0B}
+		{19C4D60C-6E5D-4B6B-91E0-40377CA73867} = {C5DA1250-910E-4DC4-B890-478E70EF1A0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
