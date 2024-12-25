@@ -41,8 +41,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutexDemo", "MutexDemo\Mute
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreDemo", "SemaphoreDemo\SemaphoreDemo.csproj", "{2B7E61CF-12A5-488E-B730-FC376ACB9C86}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{01EE8D47-72A8-41F7-86B8-796EE9CD6117}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlimDemo", "SemaphoreSlimDemo\SemaphoreSlimDemo.csproj", "{52DEAEAC-351C-47B1-8D31-FDF703F5A74B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeadLockDemo", "DeadLockDemo\DeadLockDemo.csproj", "{60440119-ECF6-4D81-A3A9-E1FE4BA9D41E}"
@@ -57,28 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResetEvent_Thread", "ResetE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStateDemo", "ThreadStateDemo\ThreadStateDemo.csproj", "{81B96E7E-E084-4794-AEBE-452029380235}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multi Threading", "Multi Threading", "{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E}"
-	ProjectSection(SolutionItems) = preProject
-		InterThreadCommunication.md = InterThreadCommunication.md
-		ResetEvent_Thread.md = ResetEvent_Thread.md
-		SemaphoreNotes.md = SemaphoreNotes.md
-		SemaphoreSlim.md = SemaphoreSlim.md
-		ThreadLifeCycle.md = ThreadLifeCycle.md
-		ThreadPool.md = ThreadPool.md
-		ThreadTerminate.md = ThreadTerminate.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTerminateDemo", "ThreadTerminateDemo\ThreadTerminateDemo.csproj", "{32447183-4E6F-42A5-90A8-CA92075A4668}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inter Thread Communication", "Inter Thread Communication", "{44C16958-5D7D-4724-A524-405BB5723BFC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wait_Pulse_Demo2", "Wait_Pulse_Demo2\Wait_Pulse_Demo2.csproj", "{287145F6-282E-4885-99DD-3D7338F01125}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collection C#", "Collection C#", "{1770D00B-B5C3-4907-9F4B-4AB13D29745B}"
-	ProjectSection(SolutionItems) = preProject
-		Collections.md = Collections.md
-		SingleDimensionArray.md = SingleDimensionArray.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections", "{F702E000-80A7-498A-AFCC-E4ED19AAAB9E}"
 EndProject
@@ -266,11 +247,9 @@ Global
 		{7E0E0495-CBE2-4A6C-A0AA-70F3367BA516} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{50888AF9-3EFD-496A-A899-8D2235E8CDC3} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{81B96E7E-E084-4794-AEBE-452029380235} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
-		{D30DED4E-93A7-4D5B-A476-E0711FCF9D8E} = {01EE8D47-72A8-41F7-86B8-796EE9CD6117}
 		{32447183-4E6F-42A5-90A8-CA92075A4668} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{44C16958-5D7D-4724-A524-405BB5723BFC} = {2191649D-BB6D-4F6B-9EE8-009579635B54}
 		{287145F6-282E-4885-99DD-3D7338F01125} = {44C16958-5D7D-4724-A524-405BB5723BFC}
-		{1770D00B-B5C3-4907-9F4B-4AB13D29745B} = {01EE8D47-72A8-41F7-86B8-796EE9CD6117}
 		{F871722D-6002-4E02-BF7A-1313FD5FE0EC} = {F702E000-80A7-498A-AFCC-E4ED19AAAB9E}
 		{0C0A163D-157F-4FD4-98F0-F3FE98188073} = {F871722D-6002-4E02-BF7A-1313FD5FE0EC}
 		{2ED3FBD2-B584-4661-97C1-BE5113B0A3FD} = {F871722D-6002-4E02-BF7A-1313FD5FE0EC}
