@@ -101,15 +101,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex7-Copy,Sort-ArrayList", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashTable", "HashTable", "{07A9842D-A351-4013-9208-8280E8C475C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-CreateAndAddElements", "Ex1-CreateAndAddElements\Ex1-CreateAndAddElements.csproj", "{C8E5BB33-DACE-44ED-B6C7-879F5FBC0D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1-CreateAndAddElements", "Ex1-CreateAndAddElements\Ex1-CreateAndAddElements.csproj", "{C8E5BB33-DACE-44ED-B6C7-879F5FBC0D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-CheckAvailabilityHashtable", "Ex2-CheckAvailabilityHashtable\Ex2-CheckAvailabilityHashtable.csproj", "{0928F4EA-78DB-411D-B329-7949B34A9EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex2-CheckAvailabilityHashtable", "Ex2-CheckAvailabilityHashtable\Ex2-CheckAvailabilityHashtable.csproj", "{0928F4EA-78DB-411D-B329-7949B34A9EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-RemoveElementsHashtable", "Ex3-RemoveElementsHashtable\Ex3-RemoveElementsHashtable.csproj", "{6F5995CF-E5E5-4C1F-91CC-D820A81C352B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex3-RemoveElementsHashtable", "Ex3-RemoveElementsHashtable\Ex3-RemoveElementsHashtable.csproj", "{6F5995CF-E5E5-4C1F-91CC-D820A81C352B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4-AssignValueHashtable", "Ex4-AssignValueHashtable\Ex4-AssignValueHashtable.csproj", "{25068CFA-B458-4C53-961A-56F10006A20F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex4-AssignValueHashtable", "Ex4-AssignValueHashtable\Ex4-AssignValueHashtable.csproj", "{25068CFA-B458-4C53-961A-56F10006A20F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex5-UpdateHashtable", "Ex5-UpdateHashtable\Ex5-UpdateHashtable.csproj", "{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex5-UpdateHashtable", "Ex5-UpdateHashtable\Ex5-UpdateHashtable.csproj", "{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex6-CloneCopyToHashtable", "Ex6-CloneCopyToHashtable\Ex6-CloneCopyToHashtable.csproj", "{47CB6BD3-6E3E-4684-B7A7-8119D7D12024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CB6BD3-6E3E-4684-B7A7-8119D7D12024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CB6BD3-6E3E-4684-B7A7-8119D7D12024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CB6BD3-6E3E-4684-B7A7-8119D7D12024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CB6BD3-6E3E-4684-B7A7-8119D7D12024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -350,6 +356,7 @@ Global
 		{6F5995CF-E5E5-4C1F-91CC-D820A81C352B} = {07A9842D-A351-4013-9208-8280E8C475C7}
 		{25068CFA-B458-4C53-961A-56F10006A20F} = {07A9842D-A351-4013-9208-8280E8C475C7}
 		{C24F2BF2-3EAA-4B3A-9D30-12DADC0EBE43} = {07A9842D-A351-4013-9208-8280E8C475C7}
+		{47CB6BD3-6E3E-4684-B7A7-8119D7D12024} = {07A9842D-A351-4013-9208-8280E8C475C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
