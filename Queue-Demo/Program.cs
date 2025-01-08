@@ -18,6 +18,9 @@ namespace QueueDemo
             // Clone Demo
             CloneDemo(ref queue);
 
+            // Contains Demo
+            ContainsDemo(ref queue);
+
             // CopyTo Demo
             CopyToDemo(ref queue);
 
@@ -68,7 +71,7 @@ namespace QueueDemo
 
             queue.CopyTo(array, 0);
 
-            Console.WriteLine("\n\nCopying items of queue to array");
+            Console.WriteLine("\nCopying items of queue to array");
             foreach (object item in array)
             {
                 Console.Write(item + "\t");
@@ -79,6 +82,12 @@ namespace QueueDemo
         {
             queue.Clear();
             Console.WriteLine($"\n\nTotal items in queue after clear is used is {queue.Count}");
+        }
+
+        static void ContainsDemo(ref Queue queue)
+        {
+            Console.WriteLine("\n\nDoes the queue has item \"Hello World\": {0}", queue.Contains("Hello World"));
+            Console.WriteLine("Does the queue has item \"No World\": {0}", queue.Contains("No World"));
         }
     }
 }
