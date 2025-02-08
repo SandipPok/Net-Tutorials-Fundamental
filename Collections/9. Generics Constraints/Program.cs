@@ -1,0 +1,7 @@
+﻿namespace GenericsConstriants
+{
+    class Program
+    {
+
+    }
+}
