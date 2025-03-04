@@ -137,6 +137,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsConstrientsDemo", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenericConstraints", "GenericConstraints", "{007CA326-592D-4D95-8FB4-093EFD2C0874}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex-1_FileStreamDemo", "File Handling\Ex-1_FileStreamDemo\Ex-1_FileStreamDemo.csproj", "{767F91A6-3FA4-4FB8-83DC-54AE6C849A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File Handling", "File Handling", "{DED3FB3C-A625-495B-A75A-C03748512960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +359,10 @@ Global
 		{50CA976E-95A7-4153-B8CC-48C6EB40F260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CA976E-95A7-4153-B8CC-48C6EB40F260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CA976E-95A7-4153-B8CC-48C6EB40F260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -421,6 +429,7 @@ Global
 		{2D4BFEF6-7AFA-433B-9C8E-F9BF3D2A0C0E} = {899BC9DE-3EE5-4ECE-AF5C-873F58EDE595}
 		{50CA976E-95A7-4153-B8CC-48C6EB40F260} = {007CA326-592D-4D95-8FB4-093EFD2C0874}
 		{007CA326-592D-4D95-8FB4-093EFD2C0874} = {F702E000-80A7-498A-AFCC-E4ED19AAAB9E}
+		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25} = {DED3FB3C-A625-495B-A75A-C03748512960}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
