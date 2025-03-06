@@ -64,19 +64,24 @@ class Program
                 case 12:
                     break;
                 case 13:
+                    fm.ReadAllLines();
                     break;
                 case 14:
                     fm.ReadAllText();
                     break;
                 case 15:
+                    fm.ReadLines();
                     break;
                 case 16:
                     break;
                 case 17:
+                    fm.WriteAllBytes();
                     break;
                 case 18:
+                    fm.WriteAllLines();
                     break;
                 case 19:
+                    fm.WriteAllText();
                     break;
                 default:
                     break;
