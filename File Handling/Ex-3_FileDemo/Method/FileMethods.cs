@@ -14,11 +14,14 @@ namespace Ex_3_FileDemo.Method
         {
             Path = path;
         }
-        public void Copy()
+        public void Copy(string to)
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    File.Copy(Path, to);
+                }
             }
             catch (Exception ex)
             {
@@ -41,7 +44,11 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    File.Decrypt(Path);
+                    Console.WriteLine("File decrypted");
+                }
             }
             catch (Exception ex)
             {
@@ -64,7 +71,11 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    File.Encrypt(Path);
+                    Console.WriteLine("File encrypted");
+                }
             }
             catch (Exception ex)
             {
@@ -98,11 +109,14 @@ namespace Ex_3_FileDemo.Method
                 Console.WriteLine($"Failed with error: {ex}");
             }
         }
-        public void Move()
+        public void Move(string to)
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    File.Move(Path, to);
+                }
             }
             catch (Exception ex)
             {
@@ -124,7 +138,18 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
+                using (FileStream fs = File.OpenRead(Path))
+                {
+                    byte[] data = new byte[fs.Length];
+                    fs.Read(data, 0, data.Length);
 
+                    Console.WriteLine("File content (in bytes):");
+                    foreach (var b in data)
+                    {
+                        Console.Write(b + " ");
+                    }
+                    Console.WriteLine();
+                }
             }
             catch (Exception ex)
             {
@@ -135,7 +160,12 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                using (StreamReader reader = File.OpenText(Path))
+                {
+                    string content = reader.ReadToEnd();
+                    Console.WriteLine("File content:");
+                    Console.WriteLine(content);
+                }
             }
             catch (Exception ex)
             {
@@ -146,7 +176,12 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                using (FileStream fs = File.OpenWrite(Path))
+                {
+                    byte[] content = new byte[] { 72, 101, 108, 108, 111 };
+                    fs.Write(content, 0, content.Length);
+                    Console.WriteLine("Content written to file.");
+                }
             }
             catch (Exception ex)
             {
@@ -157,7 +192,15 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    byte[] fileBytes = File.ReadAllBytes(Path);
+                    Console.WriteLine(Encoding.UTF8.GetString(fileBytes));
+                }
+                else
+                {
+                    Console.WriteLine("MyFile.txt File Does Not Exist in current Directory");
+                }
             }
             catch (Exception ex)
             {
@@ -180,7 +223,7 @@ namespace Ex_3_FileDemo.Method
                 }
                 else
                 {
-                    Console.WriteLine("MyFile.txt File Does Not Exist in D Directory");
+                    Console.WriteLine("MyFile.txt File Does Not Exist in current Directory");
                 }
             }
             catch (Exception ex)
@@ -225,11 +268,14 @@ namespace Ex_3_FileDemo.Method
                 Console.WriteLine($"Failed with error: {ex}");
             }
         }
-        public void Replace()
+        public void Replace(string to)
         {
             try
             {
-
+                if (File.Exists(Path))
+                {
+                    File.Replace(Path, to, "myFile-backup.txt");
+                }
             }
             catch (Exception ex)
             {
