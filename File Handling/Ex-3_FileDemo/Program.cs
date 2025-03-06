@@ -43,10 +43,12 @@ class Program
                 case 3:
                     break;
                 case 4:
+                    fm.Delete();
                     break;
                 case 5:
                     break;
                 case 6:
+                    fm.Open();
                     break;
                 case 7:
                     break;
@@ -64,6 +66,7 @@ class Program
                 case 13:
                     break;
                 case 14:
+                    fm.ReadAllText();
                     break;
                 case 15:
                     break;
