@@ -36,32 +36,40 @@ class Program
             switch (choice)
             {
                 case 1:
+                    fm.Copy(@"D:\DotNet\Net Tutorials\File Handling\Ex-3_FileDemo\myFile-Copy.txt");
                     break;
                 case 2:
                     fm.Create();
                     break;
                 case 3:
+                    fm.Decrypt();
                     break;
                 case 4:
                     fm.Delete();
                     break;
                 case 5:
+                    fm.Encrypt();
                     break;
                 case 6:
                     fm.Open();
                     break;
                 case 7:
+                    fm.Move(@"D:\DotNet\Net Tutorials\File Handling\Ex-3_FileDemo\Method\myFile.txt");
                     break;
                 case 8:
                     fm.Exists();
                     break;
                 case 9:
+                    fm.OpenRead();
                     break;
                 case 10:
+                    fm.OpenText();
                     break;
                 case 11:
+                    fm.OpenWrite();
                     break;
                 case 12:
+                    fm.ReadAllBytes();
                     break;
                 case 13:
                     fm.ReadAllLines();
@@ -73,6 +81,7 @@ class Program
                     fm.ReadLines();
                     break;
                 case 16:
+                    fm.Replace(@"D:\DotNet\Net Tutorials\File Handling\Ex-3_FileDemo\myFile-Copy.txt");
                     break;
                 case 17:
                     fm.WriteAllBytes();
