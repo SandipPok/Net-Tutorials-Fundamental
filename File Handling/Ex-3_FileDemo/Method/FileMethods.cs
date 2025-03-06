@@ -168,7 +168,20 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
+                if (File.Exists(Path))
+                {
+                    string[] lines = File.ReadAllLines(Path);
 
+                    foreach (string line in lines)
+                    {
+                        Console.Write($"{line} ");
+                    }
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.WriteLine("MyFile.txt File Does Not Exist in D Directory");
+                }
             }
             catch (Exception ex)
             {
@@ -192,7 +205,20 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
+                if (File.Exists(Path))
+                {
+                    var data = File.ReadLines(Path);
 
+                    foreach (string item in data)
+                    {
+                        Console.Write($"{item} ");
+                    }
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.WriteLine("File doesn't exists.");
+                }
             }
             catch (Exception ex)
             {
@@ -214,7 +240,8 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                byte[] bytes = Encoding.UTF8.GetBytes("This is written by WriteAllBytes which will override the files inside.");
+                File.WriteAllBytes(Path, bytes);
             }
             catch (Exception ex)
             {
@@ -225,7 +252,8 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                string[] strings = ["2002", "Annie", "Marry"];
+                File.WriteAllLines(Path, strings);
             }
             catch (Exception ex)
             {
@@ -236,7 +264,9 @@ namespace Ex_3_FileDemo.Method
         {
             try
             {
-
+                Console.WriteLine("Enter the text to insert");
+                string? input = Console.ReadLine();
+                File.WriteAllText(Path, input);
             }
             catch (Exception ex)
             {
