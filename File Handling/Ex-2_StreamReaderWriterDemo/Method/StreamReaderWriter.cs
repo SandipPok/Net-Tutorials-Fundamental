@@ -44,12 +44,38 @@ namespace StreamReaderWriterDemo.Method
             Console.WriteLine("File Created Successfully");
         }
 
+        public void Append()
+        {
+            using (StreamWriter sr = new StreamWriter(FilePath, true))
+            {
+                Console.WriteLine("Write the text to be added");
+                string? text = Console.ReadLine();
+                sr.WriteLine(text);
+            }
+        }
+
         public void Open()
         {
             using (StreamReader sr = new StreamReader(FilePath))
             {
                 var text = sr.ReadToEnd();
                 Console.WriteLine(text);
+            }
+        }
+
+        public void Seek()
+        {
+            using (StreamReader sr = new StreamReader(FilePath))
+            {
+                sr.BaseStream.Seek(0, SeekOrigin.Begin);
+        
+                string? strData = sr.ReadLine();
+        
+                while (strData != null)
+                {
+                    Console.WriteLine(strData);
+                    strData = sr.ReadLine();
+                }
             }
         }
     }
