@@ -145,6 +145,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex-2_StreamReaderWriterDemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex-3_FileDemo", "File Handling\Ex-3_FileDemo\Ex-3_FileDemo.csproj", "{46A213B7-29FE-4438-AE75-B244B8088933}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex-4_TextReaderWriter", "File Handling\Ex-4_TextReaderWriter\Ex-4_TextReaderWriter.csproj", "{41039D45-820A-427D-B248-89896DA5F720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{46A213B7-29FE-4438-AE75-B244B8088933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A213B7-29FE-4438-AE75-B244B8088933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A213B7-29FE-4438-AE75-B244B8088933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41039D45-820A-427D-B248-89896DA5F720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41039D45-820A-427D-B248-89896DA5F720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41039D45-820A-427D-B248-89896DA5F720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41039D45-820A-427D-B248-89896DA5F720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -444,6 +450,7 @@ Global
 		{767F91A6-3FA4-4FB8-83DC-54AE6C849A25} = {DED3FB3C-A625-495B-A75A-C03748512960}
 		{C9369B90-6F2B-489B-9D58-1F3C2EDA8B20} = {DED3FB3C-A625-495B-A75A-C03748512960}
 		{46A213B7-29FE-4438-AE75-B244B8088933} = {DED3FB3C-A625-495B-A75A-C03748512960}
+		{41039D45-820A-427D-B248-89896DA5F720} = {DED3FB3C-A625-495B-A75A-C03748512960}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
