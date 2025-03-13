@@ -157,6 +157,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-ReturnGenericDemo", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "Asynchronous Programming\Ex2-ReturnGenerics\WebApiDemo\WebApiDemo.csproj", "{7B4F08E5-7729-2C8C-4D69-8EC5B9986322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-ExecuteMultipleTasks", "Asynchronous Programming\Ex3-ExecuteMultipleTasks\Ex3-ExecuteMultipleTasks.csproj", "{BDE7EFDC-693F-590A-5569-294DEC7F6F4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -403,6 +405,10 @@ Global
 		{7B4F08E5-7729-2C8C-4D69-8EC5B9986322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B4F08E5-7729-2C8C-4D69-8EC5B9986322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B4F08E5-7729-2C8C-4D69-8EC5B9986322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE7EFDC-693F-590A-5569-294DEC7F6F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE7EFDC-693F-590A-5569-294DEC7F6F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE7EFDC-693F-590A-5569-294DEC7F6F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE7EFDC-693F-590A-5569-294DEC7F6F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -477,6 +483,7 @@ Global
 		{F7B26154-DCFB-454D-8BEB-D21FC04B6374} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C9BDE577-0CC0-E971-3CF1-86C85E9EB4A1} = {F7B26154-DCFB-454D-8BEB-D21FC04B6374}
 		{7B4F08E5-7729-2C8C-4D69-8EC5B9986322} = {F7B26154-DCFB-454D-8BEB-D21FC04B6374}
+		{BDE7EFDC-693F-590A-5569-294DEC7F6F4D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
