@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using Ex4_LimitConcurrentTask.Methods;
+using System.Diagnostics;
 
 namespace LimitConcurrentTask
 {
@@ -9,6 +10,11 @@ namespace LimitConcurrentTask
             var stopwatch = new Stopwatch();
             stopwatch.Start();
             Console.WriteLine("Main Thread Started");
+
+            List<CreditCard> creditCards = CreditCard.GenerateCreditCards(50);
+            Console.WriteLine($"Credit Card Generated : {creditCards.Count}");
+
+            MethodImplementation.ProssCreditCards(creditCards);
 
             Console.WriteLine("Main Thread Completed");
             stopwatch.Stop();

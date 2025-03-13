@@ -22,6 +22,8 @@ namespace Ex4_LimitConcurrentTask.Methods
                     Name = "CreditCard-" + i
                 });
             }
+
+            return creditCards;
         }
     }
 }
