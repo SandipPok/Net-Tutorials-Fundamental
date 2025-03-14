@@ -14,8 +14,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/greetings", (string name) =>
+app.MapGet("/greetings", async (string name) =>
 {
+    await Task.Delay(5000);
     return $"Hello {name}, Welcome to Web API";
 });
 
