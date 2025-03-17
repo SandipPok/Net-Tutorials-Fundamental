@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8_OnlyOnePattern", "Async
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-Control_Result_Task", "Asynchronous Programming\Ex9-Control_Result_Task\Ex9-Control_Result_Task.csproj", "{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex-10_Task_Based_Async_Programming", "Asynchronous Programming\Ex-10_Task_Based_Async_Programming\Ex-10_Task_Based_Async_Programming.csproj", "{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -445,6 +447,10 @@ Global
 		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -526,6 +532,7 @@ Global
 		{0000792D-3E2B-4024-8777-605EAD9A9947} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B327A20B-B979-4159-BCCB-5ECE3AD9AE07} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3B6965CE-7B0F-41E7-91AE-46A1EAE5D238} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
