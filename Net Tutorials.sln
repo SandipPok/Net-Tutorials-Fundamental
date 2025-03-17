@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex7-RetryPattern", "Asynchr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8_OnlyOnePattern", "Asynchronous Programming\Ex8_OnlyOnePattern\Ex8_OnlyOnePattern.csproj", "{B327A20B-B979-4159-BCCB-5ECE3AD9AE07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-Control_Result_Task", "Asynchronous Programming\Ex9-Control_Result_Task\Ex9-Control_Result_Task.csproj", "{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -439,6 +441,10 @@ Global
 		{B327A20B-B979-4159-BCCB-5ECE3AD9AE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B327A20B-B979-4159-BCCB-5ECE3AD9AE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B327A20B-B979-4159-BCCB-5ECE3AD9AE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -519,6 +525,7 @@ Global
 		{6E081463-B24E-4E4A-99D5-971107EDD79E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0000792D-3E2B-4024-8777-605EAD9A9947} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B327A20B-B979-4159-BCCB-5ECE3AD9AE07} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BBF4D8E8-779E-4AEF-8EAA-4C13C6F0581E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
