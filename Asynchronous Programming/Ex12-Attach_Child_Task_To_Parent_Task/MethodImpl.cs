@@ -48,7 +48,7 @@
         public static async Task AttachChildTask()
         {
             Console.WriteLine("Attach Child Task Started");
-            
+
             var parentTask = Task.Factory.StartNew(() =>
             {
                 Console.WriteLine("Parent Task Started");
@@ -65,6 +65,106 @@
 
             await parentTask;
             Console.WriteLine("Attach Child Task Completed");
+        }
+
+        public static async Task PreventParentAttachFromChildTask()
+        {
+            Console.WriteLine("Prevent Parent Attach From Child Task Started");
+
+            var parentTask = Task.Factory.StartNew(() =>
+            {
+                Console.WriteLine("Parent Task Started");
+
+                var childTask = Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine("Child Task Started");
+                    Thread.Sleep(5000);
+                    Console.WriteLine("Child Task Completed");
+                }, TaskCreationOptions.AttachedToParent);
+
+                Console.WriteLine("Parent Task Completed");
+            }, TaskCreationOptions.DenyChildAttach);
+
+            await parentTask;
+            Console.WriteLine("Prevent Parent Attach From Child Task Completed");
+        }
+
+        public static async Task PreventTaskUsingTaskRun()
+        {
+            Console.WriteLine("Prevent Parent Attach From Child Using Task Run Task Started");
+
+            var parentTask = Task.Run(() =>
+            {
+                Console.WriteLine("Parent Task Started");
+
+                var childTask = Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine("Child Task Started");
+                    Thread.Sleep(5000);
+                    Console.WriteLine("Child Task Completed");
+                }, TaskCreationOptions.AttachedToParent);
+
+                Console.WriteLine("Parent Task Completed");
+            });
+
+            await parentTask;
+            Console.WriteLine("Prevent Parent Attach From Child Using Task Run Task Completed");
+            Console.ReadKey();
+        }
+
+        public static async Task ExceptionDetachedChildTask()
+        {
+            Console.WriteLine("Exception Detached Child Task Method Started");
+
+            try
+            {
+                var parentTask = Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine("Parent Task Started");
+                    var childTask = Task.Factory.StartNew(() =>
+                    {
+                        Console.WriteLine("Child Task Started");
+                        int x = 10, y = 0;
+                        int z = x / y;
+                        Console.WriteLine("Child Task Completed");
+                    });
+                    Console.WriteLine("Parent Task Completed");
+                });
+
+                await parentTask;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception Occurred: {ex.Message}");
+            }
+
+            Console.WriteLine("Exception Detached Child Task Method Completed");
+        }
+
+        public static async Task ExceptionAttachedChildTask()
+        {
+            Console.WriteLine("Exception Detached Child Task Method Started");
+            try
+            {
+                var parentTask = Task.Factory.StartNew(() =>
+                {
+                    Console.WriteLine("Parent Task Started");
+                    var childTask = Task.Factory.StartNew(() =>
+                    {
+                        Console.WriteLine("Child Task Started");
+                        int x = 10, y = 0;
+                        int z = x / y;
+                        Console.WriteLine("Child Task Completed");
+                    }, TaskCreationOptions.AttachedToParent);
+                    Console.WriteLine("Parent Task Completed");
+                });
+                await parentTask;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception Occurred: {ex.Message}");
+            }
+            Console.WriteLine("Exception Detached Child Task Method Completed");
         }
     }
 }
