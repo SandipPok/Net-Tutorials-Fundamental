@@ -5,16 +5,18 @@
         public static void Main(string[] args)
         {
         LOOP:
-            Console.WriteLine(@"1. Control the Result of a Task
-2. TaskCompletionSource With Return Value");
+            Console.WriteLine(@"1. Creating a continuation for a single antecedent
+2. Scheduling Different Continuation Tasks");
 
             Console.Write("Enter your choice: ");
             int.TryParse(Console.ReadLine(), out int choice);
             switch (choice)
             {
                 case 1:
+                    MethodImpl.CreatingContinuationSingleAntecedent();
                     break;
                 case 2:
+                    MethodImpl.SchedulingDifferentContinuationTasks();
                     break;
                 default:
                     Console.WriteLine("Invalid choice. Please try again.");
