@@ -179,6 +179,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex12-Attach_Child_Task_To_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex13-ValueTaskDemo", "Asynchronous Programming\Ex13-ValueTaskDemo\Ex13-ValueTaskDemo.csproj", "{5BC9524E-C6CC-4BCC-9F44-4B4489E38297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex14-Cancel_NonCancellableTask", "Asynchronous Programming\Ex14-Cancel_NonCancellableTask\Ex14-Cancel_NonCancellableTask.csproj", "{8C892F17-2A7C-49C2-878C-FDD85416C970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -469,6 +471,10 @@ Global
 		{5BC9524E-C6CC-4BCC-9F44-4B4489E38297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC9524E-C6CC-4BCC-9F44-4B4489E38297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC9524E-C6CC-4BCC-9F44-4B4489E38297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C892F17-2A7C-49C2-878C-FDD85416C970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C892F17-2A7C-49C2-878C-FDD85416C970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C892F17-2A7C-49C2-878C-FDD85416C970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C892F17-2A7C-49C2-878C-FDD85416C970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -554,6 +560,7 @@ Global
 		{A730E5FE-C75F-454F-8B01-1324E3EC62C2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B87FF182-AC48-46B0-AE06-822ADAD8A566} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5BC9524E-C6CC-4BCC-9F44-4B4489E38297} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8C892F17-2A7C-49C2-878C-FDD85416C970} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
