@@ -185,6 +185,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex15-AsynchronousStreams", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex16-CancelAsyncStream", "Asynchronous Programming\Ex16-CancelAsyncStream\Ex16-CancelAsyncStream.csproj", "{240E8BC7-E359-4C4D-89BA-054D2882C937}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel Programming", "Parallel Programming", "{88EF55C8-3985-4667-BA47-9F0145AAA064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-Parallel_For_Demo", "Parallel Programming\Ex1-Parallel_For_Demo\Ex1-Parallel_For_Demo.csproj", "{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -487,6 +491,10 @@ Global
 		{240E8BC7-E359-4C4D-89BA-054D2882C937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{240E8BC7-E359-4C4D-89BA-054D2882C937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{240E8BC7-E359-4C4D-89BA-054D2882C937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -575,6 +583,7 @@ Global
 		{8C892F17-2A7C-49C2-878C-FDD85416C970} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{71B98B3F-5AC0-4139-AEA8-CBB9C86E2BCF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{240E8BC7-E359-4C4D-89BA-054D2882C937} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
