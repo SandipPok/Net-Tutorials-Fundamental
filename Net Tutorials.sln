@@ -195,6 +195,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-Parallel_ForEach_Demo",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-Parallel_Invoke", "Parallel Programming\Ex3-Parallel_Invoke\Ex3-Parallel_Invoke.csproj", "{DB9F449B-8A3F-4AB4-BECC-EB2918BE0562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex4-Maximum_Degree_Parallelism", "Parallel Programming\Ex4-Maximum_Degree_Parallelism\Ex4-Maximum_Degree_Parallelism.csproj", "{A2B503F4-084C-4F87-919B-3AA8EB9530F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -509,6 +511,10 @@ Global
 		{DB9F449B-8A3F-4AB4-BECC-EB2918BE0562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9F449B-8A3F-4AB4-BECC-EB2918BE0562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9F449B-8A3F-4AB4-BECC-EB2918BE0562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B503F4-084C-4F87-919B-3AA8EB9530F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B503F4-084C-4F87-919B-3AA8EB9530F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B503F4-084C-4F87-919B-3AA8EB9530F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B503F4-084C-4F87-919B-3AA8EB9530F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -600,6 +606,7 @@ Global
 		{9A29F46B-F6BF-49FE-A8C1-9C2E00541F59} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{BED6B20C-FD1E-473A-A167-39B2F7111D89} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{DB9F449B-8A3F-4AB4-BECC-EB2918BE0562} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
+		{A2B503F4-084C-4F87-919B-3AA8EB9530F7} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
