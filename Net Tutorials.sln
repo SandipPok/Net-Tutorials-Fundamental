@@ -203,6 +203,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex7-Interlocked_VS_Lock", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-Parallel_LinQ", "Parallel Programming\Ex8-Parallel_LinQ\Ex8-Parallel_LinQ.csproj", "{44C763B2-4D58-4BDC-898D-E811A0BED615}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper", "AutoMapper", "{B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapper\AutoMapperDemo\AutoMapperDemo.csproj", "{74C36FED-56C3-4833-80D1-2D6F36C543C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -537,6 +541,10 @@ Global
 		{44C763B2-4D58-4BDC-898D-E811A0BED615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C763B2-4D58-4BDC-898D-E811A0BED615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C763B2-4D58-4BDC-898D-E811A0BED615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -633,6 +641,7 @@ Global
 		{705B0B91-C4AD-4D20-9F0B-DC69CDDC85D3} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{EFE12162-4FE2-4138-BA78-284057E9FD81} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{44C763B2-4D58-4BDC-898D-E811A0BED615} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
+		{74C36FED-56C3-4833-80D1-2D6F36C543C0} = {B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
