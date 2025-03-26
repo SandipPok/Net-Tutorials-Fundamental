@@ -205,7 +205,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-Parallel_LinQ", "Parall
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper", "AutoMapper", "{B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapper\AutoMapperDemo\AutoMapperDemo.csproj", "{74C36FED-56C3-4833-80D1-2D6F36C543C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-AutoMapperDemo", "AutoMapper\AutoMapperDemo\Ex1-AutoMapperDemo.csproj", "{74C36FED-56C3-4833-80D1-2D6F36C543C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-AutoMapper_Complex_Mapping", "AutoMapper\Ex2-AutoMapper_Complex_Mapping\Ex2-AutoMapper_Complex_Mapping.csproj", "{EAC36D73-AF6C-447D-98DF-2CA05E2D418A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -545,6 +547,10 @@ Global
 		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74C36FED-56C3-4833-80D1-2D6F36C543C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC36D73-AF6C-447D-98DF-2CA05E2D418A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC36D73-AF6C-447D-98DF-2CA05E2D418A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC36D73-AF6C-447D-98DF-2CA05E2D418A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC36D73-AF6C-447D-98DF-2CA05E2D418A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -642,6 +648,7 @@ Global
 		{EFE12162-4FE2-4138-BA78-284057E9FD81} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{44C763B2-4D58-4BDC-898D-E811A0BED615} = {88EF55C8-3985-4667-BA47-9F0145AAA064}
 		{74C36FED-56C3-4833-80D1-2D6F36C543C0} = {B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}
+		{EAC36D73-AF6C-447D-98DF-2CA05E2D418A} = {B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
