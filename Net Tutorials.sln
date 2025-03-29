@@ -219,6 +219,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1-Optional_Parameters", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2-IndexersDemo", "Optional Params, Indexers and Enums\Ex2-IndexersDemo\Ex2-IndexersDemo.csproj", "{F941F6FA-384C-4896-9906-805F236DC647}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3-Enums", "Optional Params, Indexers and Enums\Ex3-Enums\Ex3-Enums.csproj", "{4AD8F483-56CF-418A-A43F-A684925EBF1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -577,6 +579,10 @@ Global
 		{F941F6FA-384C-4896-9906-805F236DC647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F941F6FA-384C-4896-9906-805F236DC647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F941F6FA-384C-4896-9906-805F236DC647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD8F483-56CF-418A-A43F-A684925EBF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD8F483-56CF-418A-A43F-A684925EBF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD8F483-56CF-418A-A43F-A684925EBF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD8F483-56CF-418A-A43F-A684925EBF1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -679,6 +685,7 @@ Global
 		{BEECABCE-3F78-4DDF-AED0-8CE798A5D9E5} = {B8B4CE0A-DC0C-4CAD-8F6F-A59EF9AF86EE}
 		{A1686DF7-A452-4DA0-944B-D076C7350A41} = {DDFBC9ED-83BA-437B-A657-01D8700B9461}
 		{F941F6FA-384C-4896-9906-805F236DC647} = {DDFBC9ED-83BA-437B-A657-01D8700B9461}
+		{4AD8F483-56CF-418A-A43F-A684925EBF1F} = {DDFBC9ED-83BA-437B-A657-01D8700B9461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
