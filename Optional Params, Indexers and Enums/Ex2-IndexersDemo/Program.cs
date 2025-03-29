@@ -1,11 +1,14 @@
-﻿class Program
+﻿using Ex2_IndexersDemo.Model;
+
+class Program
 {
     static void Main(string[] args)
     {
     LOOP:
         Console.WriteLine(@"1. Int Indexers
 2. String Indexers
-3. Indexer Overloading");
+3. Indexer Overloading
+4. Indexers Real-Time Example");
 
         Console.Write("Enter the choice: ");
         int.TryParse(Console.ReadLine(), out int choice);
@@ -84,6 +87,9 @@
                 }
 
                 break;
+            case 4:
+                RealTimeExampleIndexer();
+                break;
             default:
                 Console.WriteLine("Invalid choice");
                 break;
@@ -96,246 +102,26 @@
             goto LOOP;
         }
     }
-}
 
-class EmployeeInt
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Job { get; set; }
-    public double Salary { get; set; }
-    public string Location { get; set; }
-    public string Department { get; set; }
-    public string Gender { get; set; }
-
-    public EmployeeInt(int ID,
-                       string Name,
-                       string Job,
-                       int Salary,
-                       string Location,
-                       string Department,
-                       string Gender)
+    private static void RealTimeExampleIndexer()
     {
-        this.Id = ID;
-        this.Name = Name;
-        this.Job = Job;
-        this.Salary = Salary;
-        this.Location = Location;
-        this.Department = Department;
-        this.Gender = Gender;
-    }
+        Company company = new Company();
 
-    public object this[int index]
-    {
-        get
-        {
-            if (index == 0)
-                return Id;
-            else if (index == 1)
-                return Name;
-            else if (index == 2)
-                return Job;
-            else if (index == 3)
-                return Salary;
-            else if (index == 4)
-                return Location;
-            else if (index == 5)
-                return Department;
-            else if (index == 6)
-                return Gender;
-            else
-                return null;
-        }
-        set
-        {
-            if (index == 0)
-                Id = Convert.ToInt32(value);
-            else if (index == 1)
-                Name = value.ToString();
-            else if (index == 2)
-                Job = value.ToString();
-            else if (index == 3)
-                Salary = Convert.ToDouble(value);
-            else if (index == 4)
-                Location = value.ToString();
-            else if (index == 5)
-                Department = value.ToString();
-            else if (index == 6)
-                Gender = value.ToString();
-        }
-    }
-}
+        Console.WriteLine("Name of Employee with Id = 101: " + company[110]);
+        Console.WriteLine("Name of Employee with Id = 105: " + company[111]);
+        Console.WriteLine("Name of Employee with Id = 107: " + company[112]);
 
-class EmployeeString
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Job { get; set; }
-    public double Salary { get; set; }
-    public string Location { get; set; }
-    public string Department { get; set; }
-    public string Gender { get; set; }
+        Console.WriteLine();
 
-    public EmployeeString(int ID,
-                       string Name,
-                       string Job,
-                       int Salary,
-                       string Location,
-                       string Department,
-                       string Gender)
-    {
-        this.Id = ID;
-        this.Name = Name;
-        this.Job = Job;
-        this.Salary = Salary;
-        this.Location = Location;
-        this.Department = Department;
-        this.Gender = Gender;
-    }
+        Console.WriteLine("Changing the names of employees with Id = 101,105,107");
 
-    public object this[string index]
-    {
-        get
-        {
-            if (index.ToUpper() == "ID")
-                return Id;
-            else if (index.ToUpper() == "NAME")
-                return Name;
-            else if (index.ToUpper() == "JOB")
-                return Job;
-            else if (index.ToUpper() == "SALARY")
-                return Salary;
-            else if (index.ToUpper() == "LOCATION")
-                return Location;
-            else if (index.ToUpper() == "DEPARTMENT")
-                return Department;
-            else if (index.ToUpper() == "GENDER")
-                return Gender;
-            else
-                return null;
-        }
-        set
-        {
-            if (index.ToUpper() == "ID")
-                Id = Convert.ToInt32(value);
-            else if (index.ToUpper() == "NAME")
-                Name = value.ToString();
-            else if (index.ToUpper() == "JOB")
-                Job = value.ToString();
-            else if (index.ToUpper() == "SALARY")
-                Salary = Convert.ToDouble(value);
-            else if (index.ToUpper() == "LOCATION")
-                Location = value.ToString();
-            else if (index.ToUpper() == "DEPARTMENT")
-                Department = value.ToString();
-            else if (index.ToUpper() == "GENDER")
-                Gender = value.ToString();
-        }
-    }
-}
+        company[110] = "Employee 101 Name Changed";
+        company[111] = "Employee 105 Name Changed";
+        company[112] = "Employee 107 Name Changed";
+        Console.WriteLine();
 
-class EmployeeOverloading
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Job { get; set; }
-    public double Salary { get; set; }
-    public string Location { get; set; }
-    public string Department { get; set; }
-    public string Gender { get; set; }
-    public EmployeeOverloading(int ID,
-                       string Name,
-                       string Job,
-                       int Salary,
-                       string Location,
-                       string Department,
-                       string Gender)
-    {
-        this.Id = ID;
-        this.Name = Name;
-        this.Job = Job;
-        this.Salary = Salary;
-        this.Location = Location;
-        this.Department = Department;
-        this.Gender = Gender;
-    }
-
-    public object this[int index]
-    {
-        get
-        {
-            if (index == 0)
-                return Id;
-            else if (index == 1)
-                return Name;
-            else if (index == 2)
-                return Job;
-            else if (index == 3)
-                return Salary;
-            else if (index == 4)
-                return Location;
-            else if (index == 5)
-                return Department;
-            else if (index == 6)
-                return Gender;
-            else
-                return null;
-        }
-        set
-        {
-            if (index == 0)
-                Id = Convert.ToInt32(value);
-            else if (index == 1)
-                Name = value.ToString();
-            else if (index == 2)
-                Job = value.ToString();
-            else if (index == 3)
-                Salary = Convert.ToDouble(value);
-            else if (index == 4)
-                Location = value.ToString();
-            else if (index == 5)
-                Department = value.ToString();
-            else if (index == 6)
-                Gender = value.ToString();
-        }
-    }
-    public object this[string index]
-    {
-        get
-        {
-            if (index.ToUpper() == "ID")
-                return Id;
-            else if (index.ToUpper() == "NAME")
-                return Name;
-            else if (index.ToUpper() == "JOB")
-                return Job;
-            else if (index.ToUpper() == "SALARY")
-                return Salary;
-            else if (index.ToUpper() == "LOCATION")
-                return Location;
-            else if (index.ToUpper() == "DEPARTMENT")
-                return Department;
-            else if (index.ToUpper() == "GENDER")
-                return Gender;
-            else
-                return null;
-        }
-        set
-        {
-            if (index.ToUpper() == "ID")
-                Id = Convert.ToInt32(value);
-            else if (index.ToUpper() == "NAME")
-                Name = value.ToString();
-            else if (index.ToUpper() == "JOB")
-                Job = value.ToString();
-            else if (index.ToUpper() == "SALARY")
-                Salary = Convert.ToDouble(value);
-            else if (index.ToUpper() == "LOCATION")
-                Location = value.ToString();
-            else if (index.ToUpper() == "DEPARTMENT")
-                Department = value.ToString();
-            else if (index.ToUpper() == "GENDER")
-                Gender = value.ToString();
-        }
+        Console.WriteLine("Name of Employee with Id = 101: " + company[110]);
+        Console.WriteLine("Name of Employee with Id = 105: " + company[111]);
+        Console.WriteLine("Name of Employee with Id = 107: " + company[112]);
     }
 }
