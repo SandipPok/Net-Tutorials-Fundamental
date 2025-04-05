@@ -227,6 +227,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainDemo", "Net Framew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyLib", "Net Framework Architecture\Ex1-AppDomainDemo\ThirdPartyLib\ThirdPartyLib.csproj", "{3F2FC292-C45E-0303-648F-FF39C42A8D3F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 7 New Features", "C# 7 New Features", "{FAF920F6-9BFE-4820-8D74-FCD94B0388E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression-Bodies-Demo", "C# 7 New Features\Expression-Bodies-Demo\Expression-Bodies-Demo.csproj", "{D490A4BF-28F1-417F-BAF4-0906CE03EB10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -597,6 +601,10 @@ Global
 		{3F2FC292-C45E-0303-648F-FF39C42A8D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2FC292-C45E-0303-648F-FF39C42A8D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2FC292-C45E-0303-648F-FF39C42A8D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D490A4BF-28F1-417F-BAF4-0906CE03EB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D490A4BF-28F1-417F-BAF4-0906CE03EB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D490A4BF-28F1-417F-BAF4-0906CE03EB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D490A4BF-28F1-417F-BAF4-0906CE03EB10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -702,6 +710,7 @@ Global
 		{4AD8F483-56CF-418A-A43F-A684925EBF1F} = {DDFBC9ED-83BA-437B-A657-01D8700B9461}
 		{8FCCE659-E81D-9513-8E99-62E3707BF988} = {4C41F714-41A5-42CB-88AC-7C9B94380E82}
 		{3F2FC292-C45E-0303-648F-FF39C42A8D3F} = {4C41F714-41A5-42CB-88AC-7C9B94380E82}
+		{D490A4BF-28F1-417F-BAF4-0906CE03EB10} = {FAF920F6-9BFE-4820-8D74-FCD94B0388E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
