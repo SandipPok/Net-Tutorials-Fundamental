@@ -235,6 +235,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 8 New Features", "C# 8 N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read-Only-Struct", "C# 8 New Features\Read-Only-Struct\Read-Only-Struct.csproj", "{6E377222-B601-4243-BAC6-2FF37A31C6DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default-Interface-Method", "C# 8 New Features\Default-Interface-Method\Default-Interface-Method.csproj", "{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -613,6 +615,10 @@ Global
 		{6E377222-B601-4243-BAC6-2FF37A31C6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E377222-B601-4243-BAC6-2FF37A31C6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E377222-B601-4243-BAC6-2FF37A31C6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -720,6 +726,7 @@ Global
 		{3F2FC292-C45E-0303-648F-FF39C42A8D3F} = {4C41F714-41A5-42CB-88AC-7C9B94380E82}
 		{D490A4BF-28F1-417F-BAF4-0906CE03EB10} = {FAF920F6-9BFE-4820-8D74-FCD94B0388E7}
 		{6E377222-B601-4243-BAC6-2FF37A31C6DD} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
