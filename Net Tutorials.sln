@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default-Interface-Method", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern-Matching-v8", "C# 8 New Features\Pattern-Matching-v8\Pattern-Matching-v8.csproj", "{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disposable-Ref-Structs", "C# 8 New Features\Disposable-Ref-Structs\Disposable-Ref-Structs.csproj", "{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -625,6 +627,10 @@ Global
 		{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -734,6 +740,7 @@ Global
 		{6E377222-B601-4243-BAC6-2FF37A31C6DD} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{AEFCFF17-A24D-4967-82F5-AD2A6C3CC43C} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
