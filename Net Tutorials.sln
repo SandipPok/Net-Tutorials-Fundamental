@@ -243,6 +243,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disposable-Ref-Structs", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Local-Function", "C# 8 New Features\Local-Function\Local-Function.csproj", "{53DF7F06-209B-4941-9924-EBDE8211CD91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using-Declarations", "C# 8 New Features\Using-Declarations\Using-Declarations.csproj", "{6EF207D0-F916-407F-A30A-BD00BFF86C88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -637,6 +639,10 @@ Global
 		{53DF7F06-209B-4941-9924-EBDE8211CD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DF7F06-209B-4941-9924-EBDE8211CD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DF7F06-209B-4941-9924-EBDE8211CD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF207D0-F916-407F-A30A-BD00BFF86C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF207D0-F916-407F-A30A-BD00BFF86C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF207D0-F916-407F-A30A-BD00BFF86C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF207D0-F916-407F-A30A-BD00BFF86C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -748,6 +754,7 @@ Global
 		{A7DD71D9-759F-4B40-8422-2FBDD4E5DF34} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{D5DEBD2F-89E7-44C5-97E1-9E0A99A77DC0} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{53DF7F06-209B-4941-9924-EBDE8211CD91} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{6EF207D0-F916-407F-A30A-BD00BFF86C88} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
