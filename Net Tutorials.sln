@@ -249,6 +249,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-Streams", "C# 8 New F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDisposable", "C# 8 New Features\AsynchronousDisposable\AsynchronousDisposable.csproj", "{38DEBF20-F65E-4B5F-81BD-652B193A1A07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indices-Range", "C# 8 New Features\Indices-Range\Indices-Range.csproj", "{429CC581-1814-4B69-A994-A8696A2E1D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -655,6 +657,10 @@ Global
 		{38DEBF20-F65E-4B5F-81BD-652B193A1A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38DEBF20-F65E-4B5F-81BD-652B193A1A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38DEBF20-F65E-4B5F-81BD-652B193A1A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429CC581-1814-4B69-A994-A8696A2E1D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429CC581-1814-4B69-A994-A8696A2E1D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429CC581-1814-4B69-A994-A8696A2E1D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429CC581-1814-4B69-A994-A8696A2E1D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -769,6 +775,7 @@ Global
 		{6EF207D0-F916-407F-A30A-BD00BFF86C88} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{5D0BA6E2-7886-4C37-B935-E9B94B56E203} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{38DEBF20-F65E-4B5F-81BD-652B193A1A07} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{429CC581-1814-4B69-A994-A8696A2E1D59} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
