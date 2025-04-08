@@ -253,6 +253,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indices-Range", "C# 8 New F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null-Coalescing-Assignment", "C# 8 New Features\Null-Coalescing-Assignment\Null-Coalescing-Assignment.csproj", "{D31FFB8E-F2E6-489E-AC18-112AC5D7F528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unmanage-Constructed-Type", "Unmanage-Constructed-Type\Unmanage-Constructed-Type.csproj", "{19EFF465-5347-439F-8B00-5E5202E53C8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -667,6 +669,10 @@ Global
 		{D31FFB8E-F2E6-489E-AC18-112AC5D7F528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31FFB8E-F2E6-489E-AC18-112AC5D7F528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31FFB8E-F2E6-489E-AC18-112AC5D7F528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -783,6 +789,7 @@ Global
 		{38DEBF20-F65E-4B5F-81BD-652B193A1A07} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{429CC581-1814-4B69-A994-A8696A2E1D59} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{D31FFB8E-F2E6-489E-AC18-112AC5D7F528} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{19EFF465-5347-439F-8B00-5E5202E53C8A} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
