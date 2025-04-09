@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null-Coalescing-Assignment"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unmanage-Constructed-Type", "Unmanage-Constructed-Type\Unmanage-Constructed-Type.csproj", "{19EFF465-5347-439F-8B00-5E5202E53C8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAlloc", "C# 8 New Features\StackAlloc\StackAlloc.csproj", "{256C63A2-58FE-4A74-B433-6210FD27640D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -673,6 +675,10 @@ Global
 		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EFF465-5347-439F-8B00-5E5202E53C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256C63A2-58FE-4A74-B433-6210FD27640D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256C63A2-58FE-4A74-B433-6210FD27640D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256C63A2-58FE-4A74-B433-6210FD27640D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256C63A2-58FE-4A74-B433-6210FD27640D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -790,6 +796,7 @@ Global
 		{429CC581-1814-4B69-A994-A8696A2E1D59} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{D31FFB8E-F2E6-489E-AC18-112AC5D7F528} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 		{19EFF465-5347-439F-8B00-5E5202E53C8A} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
+		{256C63A2-58FE-4A74-B433-6210FD27640D} = {6D16FC2A-364F-4C66-A5E5-6FBA40010408}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DBA839F-D5D4-47CB-BE99-8397D34BD0CA}
